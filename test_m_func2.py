@@ -11,17 +11,6 @@ def db():
     print('------------teardown-----------')
     db.close()
 
-#db = None
-
-# def setup_module(module):
-#     print('--------setup--------')
-#     global db
-#     db = StudentDB()
-#     db.connect('data.json')
-
-# def teardown_module(module):
-#     print('------------teardown-----------')
-#     db.close()
 
 def test_scott_data():
     db = StudentDB()
